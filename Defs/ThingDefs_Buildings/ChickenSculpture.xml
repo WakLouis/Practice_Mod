@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="SculptureBase">
+    <defName>Chicken_Small</defName>
+    <label>鸡鸡雕塑</label>
+    <description>一个鸡鸡雕塑</description>
+    <castEdgeShadows>true</castEdgeShadows>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Buildings/Arts/Small_Chicken_Sculpture</texPath>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <fillPercent>1</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>7</Mass>
+      <Beauty>100</Beauty>
+      <WorkToMake>30000</WorkToMake>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>1</costStuffCount>
+  </ThingDef>
+
+  </Defs>
